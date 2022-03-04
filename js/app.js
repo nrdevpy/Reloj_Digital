@@ -19,7 +19,7 @@ const showWatch = () => {
         'Jue', 'Vie', 'Sab',
         'Dom'
     ];
-    let day = days[dt.getDay()];
+    let day = days[dt.getDay() - 1];
     let month = months[dt.getMonth()];
 
     
