@@ -7,9 +7,9 @@ html {
 }
 
 /* BEM */
-.reloj__container {
-    max-width: 75vw;
-    padding: 1rem;
+.watch__container {
+    max-width: 50vw;
+    padding: 2rem;
     margin: 20rem auto 0 auto;
     text-align: center;
     
@@ -18,14 +18,14 @@ html {
 }
 
 /* ID */
-#reloj {
+#watch {
     font-size: 2.4rem;
     color: white;
 }
-#hora {
+#hour {
     margin-bottom: .5rem;
 }
-#fecha {
-    font-size: 1.5rem;
-    letter-spacing: 1rem;
+#date {
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
 }
