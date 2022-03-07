@@ -15,6 +15,13 @@ html {
     
     background-color: #1b5299;
     border-radius: 1rem;
+    box-shadow: 0 0 40px 0px #0F2E57;
+}
+
+/* Utilities */
+.blinking--effect{
+    box-shadow: 0 0 40px 10px #0F2E57;
+    border: 2px solid black;
 }
 
 /* ID */

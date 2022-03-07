@@ -26,6 +26,10 @@ const showWatch = () => {
     // * Get divs to show time.
     document.getElementById('hour').innerHTML = `${hr}:${min}:${sec}`;
     document.getElementById('date').innerHTML = `${day}, ${month}, ${year}`;
+
+    // * Blinking effect.
+    let blnk = document.getElementById('watch__container');
+    blnk.classList.toggle('blinking--effect');
 };
 
 // * Give format to the watch for add 0 in the start of the hour, minutes and seconds.
