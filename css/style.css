@@ -21,6 +21,8 @@ html {
 #watch {
     font-size: 2.4rem;
     color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 #hour {
     margin-bottom: .5rem;

@@ -19,9 +19,9 @@ const showWatch = () => {
         'Jue', 'Vie', 'Sab',
         'Dom'
     ];
+
     let day = days[dt.getDay() - 1];
     let month = months[dt.getMonth()];
-
     
     // * Get divs to show time.
     document.getElementById('hour').innerHTML = `${hr}:${min}:${sec}`;
