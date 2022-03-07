@@ -41,4 +41,4 @@ const formatTime = (time) => {
 const interval = () => {
     setInterval(showWatch, 1000);
 }
-setTimeout (interval, 2000);
+setTimeout (interval, 1000);
